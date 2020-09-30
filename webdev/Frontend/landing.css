@@ -1,0 +1,155 @@
+
+.jumbotron{
+  background-color: #ffffff;
+  height: 100vh;
+  background-image: url("radiology.png");
+ background-size: cover;
+ background-repeat: no-repeat;
+
+}
+
+.headingh1{
+text-align: center;
+font-weight: bold;
+color: #FFF;
+font-size: 6rem;
+margin-top: 20%;
+font-family: 'Montserrat',sans-serif;
+
+   text-shadow:1px 0 0 #000;
+}
+.headingh3{
+  text-align: center;
+  font-weight: bold;
+  color: #FFF;
+ text-shadow: 0.5px 1px 1px #000;
+}
+
+
+                                                /* secondpage */
+.secondpage{
+  width: 100%;
+  height: 70vh;
+  background-color: #FFF;
+
+}
+.heading-second{
+  text-align: center;
+  margin-top: 20%;
+  margin-bottom: 5%;
+  font-weight: bolder;
+  color: #fb2525;
+}
+
+
+
+                                              /* thirdpage */
+
+.third {
+  height: 100vh;
+  background-image: url('forthpage.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  text-align: center;
+  font-weight: bolder;
+  padding-top: 5%;
+}
+
+
+
+
+
+.forth{
+  background-color: #000 !important;
+  color: #fff;
+  text-align: center;
+  font-weight: bolder;
+  height:auto;
+  padding-bottom: 5%;
+}
+
+
+.forth .container {
+  margin: 20px 40px;
+  color: white;
+  padding: auto;
+}
+
+.forth .heading {
+  font-size: 60px;
+  color: white;
+}
+
+.forth .heading span {
+  font-style: italic;
+  font-size: 30px;
+}
+
+.forth .profiles {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 80px;
+}
+
+.forth .profile {
+  flex-basis: 260px;
+}
+
+.forth .profile .profile-img {
+  height: 260px;
+  width: 260px;
+  border-radius: 50%;
+  filter: grayscale(100%);
+  cursor: pointer;
+  transition: 400ms;
+}
+
+.forth .profile:hover .profile-img {
+  filter: grayscale(0);
+}
+
+.forth .user-name {
+  margin-top: 30px;
+  font-size: 35px;
+}
+
+.forth .profile h5 {
+  font-size: 18px;
+  font-weight: 100;
+  letter-spacing: 3px;
+  color: #ccc;
+}
+
+.forth .profile p {
+  font-size: 16px;
+  margin-top: 20px;
+  text-align: justify;
+}
+
+
+@media only screen and (max-width: 1150px) {
+  .forth .profiles {
+    flex-direction: column;
+  }
+
+  .forth .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .forth .profile p {
+    text-align: center;
+    margin: 20px 60px 80px 60px;
+    font-size: 20px;
+  }
+}
+
+
+
+
+.nav-item :hover
+{
+    border: 1px solid white;
+}
